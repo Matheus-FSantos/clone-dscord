@@ -13,26 +13,25 @@
   align-items: center;
   text-align: center;
   gap: 20px;
-  width: 90vw;
+  width: 60vw;
 }
 .container-section-5 .c-s-5-texts .c-s-5-t-title, .container-section-5 .c-s-5-texts .c-s-5-t-subtitle {
   color: #23272a;
 }
-.container-section-5 .c-s-5-texts .c-s-5-title-align {
-  width: 80%;
-}
 .container-section-5 .c-s-5-texts .c-s-5-title-align .c-s-5-t-title {
+  text-transform: uppercase;
+  max-width: 800px;
   line-height: 95%;
   font-family: f1;
-  font-size: 2.1875rem;
+  font-size: clamp(20px, 4vw, 40px);
 }
 .container-section-5 .c-s-5-texts .c-s-5-t-subtitle {
   font-family: f2;
-  font-size: 20px;
+  font-size: clamp(16px, 2vw, 20px);
   line-height: 1.625;
 }
 .container-section-5 .c-s-5-image {
-  width: 90vw;
+  width: 70vw;
 }
 
 @media only screen and (max-width: 767px) {

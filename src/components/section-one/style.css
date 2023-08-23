@@ -1,6 +1,7 @@
 .container-section-1 {
   background-color: #404eed;
   color: #fff;
+  overflow: hidden;
   width: 100vw;
   height: 500px;
   position: relative;

@@ -447,4 +447,54 @@
   .container-section-4 .c-s-4-image {
     max-width: 100vw;
   }
+}
+.container-section-5 {
+  padding: 80px 30px 80px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+}
+.container-section-5 .c-s-5-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  width: 90vw;
+}
+.container-section-5 .c-s-5-texts .c-s-5-t-title, .container-section-5 .c-s-5-texts .c-s-5-t-subtitle {
+  color: #23272a;
+}
+.container-section-5 .c-s-5-texts .c-s-5-title-align {
+  width: 80%;
+}
+.container-section-5 .c-s-5-texts .c-s-5-title-align .c-s-5-t-title {
+  line-height: 95%;
+  font-family: f1;
+  font-size: 2.1875rem;
+}
+.container-section-5 .c-s-5-texts .c-s-5-t-subtitle {
+  font-family: f2;
+  font-size: clamp(16px, 2vw, 20px);
+  line-height: 1.625;
+}
+.container-section-5 .c-s-5-image {
+  width: 90vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .container-section-5 .c-s-5-texts {
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+  }
+  .container-section-5 .c-s-5-texts .c-s-5-title-align {
+    width: 100%;
+  }
+  .container-section-5 .c-s-5-texts .c-s-5-title-align .c-s-5-t-title {
+    font-size: 5vw;
+  }
 }/*# sourceMappingURL=style.css.map */

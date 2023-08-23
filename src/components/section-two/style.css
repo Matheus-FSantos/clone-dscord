@@ -38,6 +38,7 @@
 @media only screen and (max-width: 767px) {
   .container-section-2 {
     flex-direction: column-reverse;
+    gap: 20px;
   }
   .container-section-2 .c-s-2-texts {
     max-width: 100vw;

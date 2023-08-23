@@ -107,7 +107,7 @@
                 border: 0;
                 border-radius: 40px;
         
-                &:hover {
+                &:hover, &:active {
                     box-shadow: 0 8px 15px rgba(0,0,0,.2);
                 }
             }
@@ -125,7 +125,7 @@
                 justify-content: center;
                 align-items: center;
         
-                &:hover {
+                &:hover, &:active {
                     color: $standard-background-color;
                 }
             }

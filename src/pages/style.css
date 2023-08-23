@@ -170,7 +170,7 @@
   border: 0;
   border-radius: 40px;
 }
-.container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-download:hover, .container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-open:hover {
+.container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-download:hover, .container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-download:active, .container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-open:hover, .container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-open:active {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 .container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-download {
@@ -183,7 +183,7 @@
   justify-content: center;
   align-items: center;
 }
-.container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-download:hover {
+.container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-download:hover, .container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-download:active {
   color: #404eed;
 }
 .container-section-1 .c-s1-main .c-s1-btns .c-s1-btn-open {

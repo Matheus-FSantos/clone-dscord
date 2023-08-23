@@ -581,4 +581,13 @@
     align-items: end;
     gap: 20px;
   }
+  .container-footer .c-f-title {
+    order: 1;
+  }
+  .container-footer .c-f-subtitle {
+    order: 2;
+  }
+  .container-footer .c-f-svg {
+    order: 3;
+  }
 }/*# sourceMappingURL=style.css.map */

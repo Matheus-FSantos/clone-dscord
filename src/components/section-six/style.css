@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+  overflow: hidden;
 }
 .container-section-6 .c-s-6-content-align {
   position: relative;
@@ -40,4 +41,10 @@
 .container-section-6 .c-s-6-btn-download:hover, .container-section-6 .c-s-6-btn-download:active {
   background-color: #616bd4;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 500px) {
+  .container-section-6 {
+    align-items: start;
+  }
 }/*# sourceMappingURL=style.css.map */

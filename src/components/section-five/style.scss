@@ -1,5 +1,5 @@
 .container-section-5 {
-    padding: 80px 30px 80px 30px;
+    padding: 80px 0px 80px 0px;
 
     display: flex;
     flex-direction: column;
@@ -55,6 +55,9 @@
             justify-content: start;
             align-items: start;
             text-align: start;
+            width: 100vw;
+
+            padding: 0px 30px 0px 30px;
 
             .c-s-5-title-align {
                 width: 100%;
@@ -62,10 +65,10 @@
                 .c-s-5-t-title {
                     font-size: 5vw;
                 }
+            }
 
-                .c-s-5-t-subtitle {
-                    font-size: 16px;
-                }
+            .c-s-5-t-subtitle {
+                font-size: 16px;
             }
         }
     }

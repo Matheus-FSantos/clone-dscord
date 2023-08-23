@@ -449,7 +449,7 @@
   }
 }
 .container-section-5 {
-  padding: 80px 30px 80px 30px;
+  padding: 80px 0px 80px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -490,6 +490,8 @@
     justify-content: start;
     align-items: start;
     text-align: start;
+    width: 100vw;
+    padding: 0px 30px 0px 30px;
   }
   .container-section-5 .c-s-5-texts .c-s-5-title-align {
     width: 100%;
@@ -497,7 +499,7 @@
   .container-section-5 .c-s-5-texts .c-s-5-title-align .c-s-5-t-title {
     font-size: 5vw;
   }
-  .container-section-5 .c-s-5-texts .c-s-5-title-align .c-s-5-t-subtitle {
+  .container-section-5 .c-s-5-texts .c-s-5-t-subtitle {
     font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
